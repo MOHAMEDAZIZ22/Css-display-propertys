@@ -1,0 +1,91 @@
+* {
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+    margin: 10px;
+
+}
+.container{
+    display: flex;
+}
+
+p {
+    color: green;
+}
+
+ #A1 {
+
+display: none;
+color: red;
+
+ }  
+
+
+#A2 {
+    display: inline;
+    color: yellow;
+}
+
+#A3 {
+
+    display: block;
+}
+.inline-flex{
+    background-color: greenyellow;
+    display: inline-flex;
+}
+.inline-flex div{
+    border: solid 2px white;
+    height: 100px;
+    width: 100px;
+}
+
+#A4 {
+    display: inline-block;
+    color: aqua;
+}
+
+.grid-container{
+    background-color: red;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    grid-gap: 5px;
+}
+
+.content1 {
+    display: contents;
+    color: red;
+    background-color: green;
+}
+.content1 p{
+
+    color: blue;
+    background-color: yellow;
+} 
+.content2 { 
+    /* height: 150px;
+    width: 150px; */
+    display: contents;
+    color: green;
+    background-color: yellowgreen;
+}
+.content2 p{
+    color: blueviolet;
+    background-color: sandybrown;
+}
+
+.list span{
+    color: chartreuse;
+    display: list-item;
+}
+
+.A{
+    /* color: orange; */
+    display:list-item;
+}
+.b{
+    display: inherit;
+    
+
+}
+ 
